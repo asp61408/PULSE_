@@ -12,43 +12,28 @@
         display: block;
         width: 190px;
         font-size: 12px;
-        line-height: 1.2;
         font-weight: 500;
         color: #ffffff;
         text-align: center;
     }
         span {
             font-size: 18px;
-            line-height: 1.2;
             font-weight: 700;
             color: #ffffff;
             text-decoration: none;
         }
     &__contacts {
-        display: block;
+        // display: block;
         text-align: right;
     }
     &__phone {
+        display: block;
         text-decoration: none;
         font-size: 18px;
-        line-height: 1.2;
         font-weight: 700;
         color: #ffffff;
         &:hover {
-            color: #fff;
+            color: $main-color;
         }
-    }
-    .button {
-        width: 150px;
-        height: 30px;
-        background-color: #c70101;
-        border-radius: 5px;
-        font-size: 12px;
-        line-height: 1.2;
-        font-weight: 500;
-        text-transform: uppercase;
-        color: #ffffff;
-        margin-top: 0;
-        margin-left: 0;
     }
 }
