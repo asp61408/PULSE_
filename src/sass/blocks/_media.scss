@@ -21,6 +21,28 @@
     .container {
         max-width: 720px;
     }
+    .carousel__inner {
+        width: 620px;
+        img {
+            width: 620px;
+        }
+        .slick-prev, .slick-next {
+        /*       position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: -66px;
+            border: none;
+            background: #fff; */
+            img {
+                display: none;
+                /*  width: 31px;
+                height: 50px; */
+            }
+        }
+        .slick-slide {
+            // width: 700px;
+        }
+    }
     .header {
         &__logo {
             width: 200px;
@@ -139,6 +161,12 @@
             margin-top: 56px;
         }
     }
+    .carousel__inner {
+        width: 340px;
+        img {
+            width: 340px;
+        }
+    }
     .catalog {
         padding-bottom: 60px;
         &__tab {
@@ -204,6 +232,12 @@
 @media (max-width: 575px) {
     .title {
         font-size: 22px;
+    }
+    .carousel__inner {
+        width: 200px;
+        img {
+            width: 200px;
+        }
     }
     .header {
         // display: none;
