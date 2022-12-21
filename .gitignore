@@ -9,7 +9,7 @@
 # production
 /build
 
-mailer/smart.php
+/src/mailer/smart.php
 
 /dist/mailer/smart.php
 

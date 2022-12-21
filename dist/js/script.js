@@ -8,7 +8,7 @@ $(document).ready(function () {
             '<button type="button" class="slick-prev"><img src="icons/chevron_left.svg"></button>',
         nextArrow:
             '<button type="button" class="slick-next"><img src="icons/chevron_right.svg"></button>',
-      /*   responsive: [
+        responsive: [
             {
                 breakpoint: 992,
                 settings: {
@@ -16,7 +16,7 @@ $(document).ready(function () {
                     prevArrow: false,
                 },
             },
-        ], */
+        ],
     });
 
     // tabs
